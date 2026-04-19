@@ -1,0 +1,5 @@
+finmind
+pandas
+requests
+python-dotenv
+matplotlib

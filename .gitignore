@@ -1,0 +1,33 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ──
+venv/
+.venv/
+env/
+
+# ── Secrets / real config ──
+config/.env
+config/settings.json
+
+# ── Runtime data (SQLite cache, state, logs) ──
+data/
+logs/
+
+# ── IDE / OS ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# ── Misc ──
+*.bak

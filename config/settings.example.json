@@ -1,0 +1,29 @@
+{
+  "system_config": {
+    "api_delay_seconds": 3,
+    "max_retries": 3,
+    "enable_macro_alerts": true,
+    "enable_market_hot_stocks": false
+  },
+  "futures_alerts": {
+    "foreign_futures_net_oi_alert": -10000
+  },
+  "watch_list": ["2330", "2317"],
+  "technical_alerts": {
+    "price_change_pct_threshold": 5.0,
+    "volume_breakout_ratio": 2.0,
+    "day_trade_ratio_threshold": 0.6,
+    "ma_tracking": [10, 20, 60]
+  },
+  "chip_alerts": {
+    "foreign_investor_net_buy_days": 3,
+    "investment_trust_net_buy_days": 2,
+    "margin_reduction_days": 3,
+    "volume_threshold_shares": 1000
+  },
+  "macro_thresholds": {
+    "usd_twd_upper_bound": 32.5,
+    "us_10y_yield_upper_bound": 4.5,
+    "us_index_drop_alert_pct": -2.0
+  }
+}
